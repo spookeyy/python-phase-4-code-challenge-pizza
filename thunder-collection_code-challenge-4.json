@@ -1,0 +1,76 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "code-challenge",
+    "collectionId": "fd073d36-7f51-44d8-a7b9-076888e219a4",
+    "dateExported": "2024-07-08T06:10:30.446Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "3e4eb36a-a7a9-426f-a4b2-81685010419f",
+            "colId": "fd073d36-7f51-44d8-a7b9-076888e219a4",
+            "containerId": "",
+            "name": "restaurants",
+            "url": "http://127.0.0.1:5000/restaurants",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-07-08T06:02:30.374Z",
+            "modified": "2024-07-08T06:02:57.912Z",
+            "headers": []
+        },
+        {
+            "_id": "f578b1da-7cc7-474e-96c1-ae0c34eb75d8",
+            "colId": "fd073d36-7f51-44d8-a7b9-076888e219a4",
+            "containerId": "",
+            "name": "pizzas",
+            "url": "http://127.0.0.1:5000/pizzas",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-07-08T06:03:28.863Z",
+            "modified": "2024-07-08T06:03:35.560Z",
+            "headers": []
+        },
+        {
+            "_id": "5236488c-73ba-41fa-b11c-f0c773746109",
+            "colId": "fd073d36-7f51-44d8-a7b9-076888e219a4",
+            "containerId": "",
+            "name": "get_restaurant",
+            "url": "http://127.0.0.1:5000/restaurants/4",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-07-08T06:04:23.403Z",
+            "modified": "2024-07-08T06:04:40.801Z",
+            "headers": []
+        },
+        {
+            "_id": "9faf28ce-7abc-4e56-b02a-2508420526cc",
+            "colId": "fd073d36-7f51-44d8-a7b9-076888e219a4",
+            "containerId": "",
+            "name": "delete",
+            "url": "http://127.0.0.1:5000/restaurants/4",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-07-08T06:05:19.335Z",
+            "modified": "2024-07-08T06:05:41.030Z",
+            "headers": []
+        },
+        {
+            "_id": "b5d91b1c-7413-4e5f-808d-00b43d8187a6",
+            "colId": "fd073d36-7f51-44d8-a7b9-076888e219a4",
+            "containerId": "",
+            "name": "post_pizza",
+            "url": "http://127.0.0.1:5000/restaurant_pizzas",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-07-08T06:06:23.704Z",
+            "modified": "2024-07-08T06:09:36.434Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"address\": \"address100\",\n    \"name\": \"Sanjay's Pizza\",\n    \"price\": \"20\"\n  }",
+                "form": []
+            }
+        }
+    ],
+    "ref": "MbabSlY076VB-dxjqtm-_RSx_FEx6urERgJ9ICK3-q16oNNtU80SjIHJTM7DoIOdp-FZrV0ijRvq_z53fuUXiA"
+}
